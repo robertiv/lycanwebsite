@@ -1,8 +1,8 @@
 1:"$Sreact.fragment"
-2:I[76181,["/websitelycan/_next/static/chunks/2263851d2939ddcc.js","/websitelycan/_next/static/chunks/3fd7051343f56314.js"],"ViewportBoundary"]
-4:I[76181,["/websitelycan/_next/static/chunks/2263851d2939ddcc.js","/websitelycan/_next/static/chunks/3fd7051343f56314.js"],"MetadataBoundary"]
+2:I[76181,["/lycanwebsite/_next/static/chunks/2263851d2939ddcc.js","/lycanwebsite/_next/static/chunks/3fd7051343f56314.js"],"ViewportBoundary"]
+4:I[76181,["/lycanwebsite/_next/static/chunks/2263851d2939ddcc.js","/lycanwebsite/_next/static/chunks/3fd7051343f56314.js"],"MetadataBoundary"]
 5:"$Sreact.suspense"
-7:I[28339,["/websitelycan/_next/static/chunks/2263851d2939ddcc.js","/websitelycan/_next/static/chunks/3fd7051343f56314.js"],"IconMark"]
-0:{"buildId":"g-IqbbwZI_g-yyI35M6n3","rsc":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L2",null,{"children":"$@3"}],["$","div",null,{"hidden":true,"children":["$","$L4",null,{"children":["$","$5",null,{"name":"Next.Metadata","children":"$@6"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"loading":null,"isPartial":false}
+7:I[28339,["/lycanwebsite/_next/static/chunks/2263851d2939ddcc.js","/lycanwebsite/_next/static/chunks/3fd7051343f56314.js"],"IconMark"]
+0:{"buildId":"8JFSjPu4CrjR4rvAxuSf-","rsc":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L2",null,{"children":"$@3"}],["$","div",null,{"hidden":true,"children":["$","$L4",null,{"children":["$","$5",null,{"name":"Next.Metadata","children":"$@6"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"loading":null,"isPartial":false}
 3:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 6:[["$","title","0",{"children":"Lycan Online | Free to Play MMORPG"}],["$","meta","1",{"name":"description","content":"Join Lycan Online - An epic free to play MMORPG experience. Battle fierce monsters, conquer fortresses, and become a legend."}],["$","meta","2",{"name":"generator","content":"Lycan Online"}],["$","link","3",{"rel":"icon","href":"/favicon.png"}],["$","link","4",{"rel":"apple-touch-icon","href":"/favicon.png"}],["$","$L7","5",{}]]
