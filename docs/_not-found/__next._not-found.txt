@@ -1,4 +1,0 @@
-1:"$Sreact.fragment"
-2:I[81516,["/lycanwebsite/_next/static/chunks/2263851d2939ddcc.js","/lycanwebsite/_next/static/chunks/3fd7051343f56314.js"],"default"]
-3:I[95939,["/lycanwebsite/_next/static/chunks/2263851d2939ddcc.js","/lycanwebsite/_next/static/chunks/3fd7051343f56314.js"],"default"]
-0:{"buildId":"rSGmFUUQA7yQc30b_qZrU","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
