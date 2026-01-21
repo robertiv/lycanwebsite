@@ -3,7 +3,7 @@
 const nextConfig = {
   output: 'export',
   basePath: '/lycanwebsite',
-  assetPrefix: '/lycanwebsite',
+  assetPrefix: '/lycanwebsite/',
   images: {
     unoptimized: true,
   },
