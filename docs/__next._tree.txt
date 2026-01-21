@@ -1,0 +1,5 @@
+:HL["/websitelycan/_next/static/chunks/ced7a28a002d95e1.css","style"]
+:HL["/websitelycan/_next/static/chunks/5e5db2ad4f57fa34.css","style"]
+:HL["/websitelycan/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/websitelycan/_next/static/media/cc014fcb166cf364-s.p.e32417d2.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"buildId":"g-IqbbwZI_g-yyI35M6n3","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
