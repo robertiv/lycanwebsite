@@ -22,7 +22,7 @@ export function HeroSection() {
   };
 
   return (
-    <section className="relative h-screen w-full overflow-hidden">
+    <section className="relative h-screen w-full overflow-hidden font-serif">
       {/* Video Background - Fixed position for parallax effect */}
       <div className="fixed inset-0 z-0">
         <video
@@ -56,7 +56,7 @@ export function HeroSection() {
         </div>
 
         {/* Tagline */}
-        <p className="font-serif mb-8 max-w-2xl text-xl text-[var(--foreground)]/90 md:text-2xl">
+        <p className="font-serif font-bold mb-8 max-w-2xl text-xl text-[var(--foreground)]/90 md:text-2xl">
           Unleash Your Inner Beast
         </p>
 
@@ -64,13 +64,13 @@ export function HeroSection() {
         <div className="flex flex-col gap-4 sm:flex-row">
           <button 
             type="button"
-            className="glow-gold rounded-lg bg-gradient-to-r from-[var(--lycan-gold)] to-[var(--lycan-orange)] px-8 py-4 font-semibold text-[var(--lycan-dark)] transition-all duration-300 hover:scale-105 hover:shadow-lg"
+            className="cursor-pointer glow-gold rounded-lg bg-gradient-to-r from-[var(--lycan-gold)] to-[var(--lycan-orange)] px-8 py-4 font-bold text-[var(--lycan-dark)] transition-all duration-300 hover:scale-105 hover:shadow-lg"
           >
             Play Free Now
           </button>
           <button 
             type="button"
-            className="rounded-lg border-2 border-[var(--lycan-gold)] bg-transparent px-8 py-4 font-semibold text-[var(--lycan-gold)] transition-all duration-300 hover:bg-[var(--lycan-gold)]/10"
+            className="cursor-pointer font-bold rounded-lg border-2 border-[var(--lycan-gold)] bg-transparent px-8 py-4 text-[var(--lycan-gold)] transition-all duration-300 hover:bg-[var(--lycan-gold)]/10"
           >
             Download Client
           </button>

@@ -9,7 +9,6 @@ import { DiscordWidget } from "@/components/sidebar/discord-widget";
 //import { ServerFeatures } from "@/components/sidebar/server-features";
 import { MediaCarousel } from "@/components/media-carousel";
 import { DiscordNews } from "@/components/discord-news";
-import { StatsBox } from "@/components/stats-box";
 import { TopPlayers } from "@/components/top-players";
 import { TopGuilds } from "@/components/top-guilds";
 import { Footer } from "@/components/footer";
@@ -34,33 +33,27 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-4 py-8">
           {/* Three-column layout */}
           <div className="grid gap-6 lg:grid-cols-12">
-            {/* full width bar */}
-            <div className="space-y-6 lg:col-span-12">
-              <StatsBox />              
-            </div>
-
             {/* Left Sidebar */}
             <aside className="space-y-6 lg:col-span-3">
-              {/* <LoginBox /> */}
-              {/* <FortressWar />               */}
-              <TopPlayers />
-              <TopGuilds />              
+              <LoginBox />                           
+              <FortressWar />
+              <EventSchedule />
+              <UniqueKills />              
             </aside>
 
             {/* Main Content */}
             <div className="space-y-6 lg:col-span-6">
+              <MediaCarousel />
               <DiscordNews />
-              <MediaCarousel />              
             </div>
 
             {/* Right Sidebar */}
             <aside className="space-y-6 lg:col-span-3">
-              {/* <ServerStatus /> 
-              <DiscordWidget /> */}
-              <EventSchedule />
+              <ServerStatus /> 
+              <DiscordWidget />
               {/*<ServerFeatures />*/}
-              
-              <UniqueKills />
+              <TopPlayers />
+              <TopGuilds />
             </aside>
           </div>
         </div>

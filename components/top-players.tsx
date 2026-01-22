@@ -81,7 +81,12 @@ export function TopPlayers() {
                 
               </div>
               <p className="text-xs text-[var(--muted-foreground)]">
-                <span className="text-[var(--lycan-gold)]">Guild: [{player.guild}]</span>
+                <span className="text-[var(--lycan-white)] font-serif font-semibold">
+                  Guild: 
+                  <span className="px-2 text-[var(--lycan-gold)] font-sans font-medium">
+                     [{player.guild}]
+                  </span>
+                </span>
               </p>
             </div>
 
@@ -99,7 +104,7 @@ export function TopPlayers() {
       <div className="border-t border-[var(--border)] p-3">
         <button
           type="button"
-          className="w-full rounded-md bg-[var(--lycan-card-hover)] py-2 text-sm font-medium text-[var(--lycan-gold)] transition-colors hover:bg-[var(--lycan-gold)]/10"
+          className="font-serif font-semibold w-full rounded-md bg-[var(--lycan-card-hover)] py-2 text-sm  text-[var(--lycan-gold)] transition-colors hover:bg-[var(--lycan-gold)]/10"
         >
           View Full Rankings
         </button>

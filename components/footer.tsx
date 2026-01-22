@@ -36,7 +36,7 @@ export function Footer() {
   return (
     <footer className="relative z-10 border-t border-[var(--border)] bg-[var(--lycan-darker)]">
       {/* Decorative top border */}
-      <div className="h-1 w-full bg-gradient-to-r from-transparent via-[var(--lycan-gold)] to-transparent" />
+      <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-[var(--lycan-gold)] to-transparent" />
       
       <div className="mx-auto max-w-6xl px-4 py-12">
         {/* Main 3-Column Layout */}

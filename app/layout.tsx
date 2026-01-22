@@ -8,7 +8,7 @@ const _cinzel = Cinzel({ subsets: ["latin"], weight: ["400", "500", "600", "700"
 const _inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Lycan Online | Free to Play MMORPG',
+  title: 'Lycan Online | Free to Play SRO PServer',
   description: 'Join Lycan Online - An epic free to play MMORPG experience. Battle fierce monsters, conquer fortresses, and become a legend.',
   generator: 'Lycan Online',
   icons: {
