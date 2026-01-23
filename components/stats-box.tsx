@@ -113,9 +113,7 @@ export function StatsBox() {
 							<div className="flex h-12 w-12 items-center justify-center rounded-lg bg-gradient-to-br from-[var(--lycan-gold)]/20 to-[var(--lycan-orange)]/20">
 								<Castle className="h-8 w-8 text-[var(--lycan-gold)]" />
 							</div>
-							<div className="flex-1 min-w-0 mb-0">
-								
-												 
+							<div className="flex-1 min-w-0 mb-0">											 
 								<span className="text-sm font-medium font-serif uppercase text-[var(--foreground)] truncate">
 									Jangan Fortress
 								</span>

@@ -1,3 +1,4 @@
+
 import { Navbar } from "@/components/navbar";
 import { HeroSection } from "@/components/hero-section";
 import { ServerStatus } from "@/components/sidebar/server-status";
@@ -9,6 +10,7 @@ import { DiscordWidget } from "@/components/sidebar/discord-widget";
 //import { ServerFeatures } from "@/components/sidebar/server-features";
 import { MediaCarousel } from "@/components/media-carousel";
 import { DiscordNews } from "@/components/discord-news";
+import { StatsBox } from "@/components/stats-box";
 import { TopPlayers } from "@/components/top-players";
 import { TopGuilds } from "@/components/top-guilds";
 import { Footer } from "@/components/footer";
@@ -33,27 +35,33 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-4 py-8">
           {/* Three-column layout */}
           <div className="grid gap-6 lg:grid-cols-12">
+            {/* full width bar */}
+            <div className="space-y-6 lg:col-span-12">
+              <StatsBox />              
+            </div>
+
             {/* Left Sidebar */}
             <aside className="space-y-6 lg:col-span-3">
-              <LoginBox />                           
-              <FortressWar />
-              <EventSchedule />
-              <UniqueKills />              
+              {/* <LoginBox /> */}
+              {/* <FortressWar />               */}
+              <TopPlayers />
+              <TopGuilds />              
             </aside>
 
             {/* Main Content */}
             <div className="space-y-6 lg:col-span-6">
-              <MediaCarousel />
               <DiscordNews />
+              <MediaCarousel />              
             </div>
 
             {/* Right Sidebar */}
             <aside className="space-y-6 lg:col-span-3">
-              <ServerStatus /> 
-              <DiscordWidget />
+              {/* <ServerStatus /> 
+              <DiscordWidget /> */}
+              <EventSchedule />
               {/*<ServerFeatures />*/}
-              <TopPlayers />
-              <TopGuilds />
+              
+              <UniqueKills />
             </aside>
           </div>
         </div>
