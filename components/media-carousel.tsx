@@ -15,7 +15,7 @@ const mediaItems: MediaItem[] = [
   
   {
     type: "video",
-    src: "https://www.youtube.com/embed/-hkr-WA9gmI?si=6TDCao77R2rHNaOW",
+    src: "https://www.youtube.com/embed/40ryqRR4E-w?si=6TDCao77R2rHNaOW",
     thumbnail: "/images/video-thumb.jpg",
     title: "Game Trailer",
   },

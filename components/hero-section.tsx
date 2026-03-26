@@ -47,7 +47,7 @@ export function HeroSection() {
         {/* Logo */}
         <div className="mb-8 animate-fade-in">
           <Image
-            src="/images/logo.png"
+            src="/images/logo.webp"
             alt={PUBLIC_CONFIG.serverName + " Logo"}
             width={400}
             height={300}

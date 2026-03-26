@@ -1,5 +1,7 @@
 # SROCORE Web - Complete Setup and Deployment Guide
 
+For support write on discord: https://discord.com/users/379045987676717058
+
 This project is a web application built with Next.js for a Silkroad server.
 If you've never developed anything before, don't worry: here are the steps from scratch.
 
@@ -10,8 +12,27 @@ This web application includes:
 - Server home page with information.
 - Player and guild rankings.
 - Login, registration, and account dashboard.
+- Character details lookup with inventory tooltip integrated.
 - SQL Server database integration.
 - Optional email sending with Mailgun.
+
+Also it includes Game UI web features:
+
+- Wheel spin
+- Battle pass
+- Auction house
+- Daily Attendance
+- Daily offers
+- Gambling
+
+Those features are finished but not included for now, if you wish to include on website you can contact developer on discord.
+
+## 1.1) Things still left to finish
+
+This project still have few pages to finish:
+
+- Free silk page for voting
+- Buy silk page with payment gates
 
 ## 2) Technologies used
 
